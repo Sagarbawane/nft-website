@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "../styles/Global";
-import assets from "../assets";
+import { data } from "../assets/index";
 import Button from "./Button";
 
 const SectionWrapper = ({
@@ -45,7 +45,7 @@ const SectionWrapper = ({
           </p>
           {showBtn && (
             <Button
-              assetUrl={assets.expo}
+              assetUrl={data.expo}
               link="https://expo.dev/@sagarlm/nft-react-native?serviceType=classic&distribution=expo-go"
             />
           )}
